@@ -1,0 +1,21 @@
+{
+    "name": "ntentan/assets",
+    "description": "Asset pipeline manager",
+    "type": "library",
+    "require": {
+        "scssphp/scssphp": "^1.8",
+        "matthiasmullie/minify": "^1.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ntentan\\assets\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ekow Abaka Ainooson",
+            "email": "jainooson@gmail.com"
+        }
+    ]
+}
